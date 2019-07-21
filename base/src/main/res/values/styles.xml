@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BottomNavigationStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@android:color/background_light</item>
+        <item name="itemIconTint">@color/bottom_nav_checked_color</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.BottomNavigation</item>
+        <item name="itemTextAppearanceActive">@style/TextAppearance.BottomNavigation</item>
+        <item name="itemTextColor">@color/bottom_nav_checked_color</item>
+    </style>
+
+    <style name="TextAppearance.BottomNavigation" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">sans-serif-condensed-medium</item>
+    </style>
+</resources>
